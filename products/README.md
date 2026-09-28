@@ -10,4 +10,4 @@ To start a new one, run `scripts/new-product.sh <product-name> "Display Name"`
 
 | Product | What it does | Connection | Status |
 |---|---|---|---|
-| [Podcasting.gg](podcasting-gg/) | _To be filled in from the brief_ | Connected | Building |
+| [Podcasting.gg](podcasting-gg/) | Business podcast growth OS: turns 20 strategic interviews into relationships, knowledge and revenue | Connected | Building |

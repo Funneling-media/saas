@@ -34,3 +34,8 @@ Join AI Business. If unclear, it's connected.
 - Before building a feature, read that product's `PRODUCT.md` and `CLAUDE.md`.
 - Never commit secrets or customer data. List setting names in `.env.example` only.
 - The owner is non-technical: write READMEs and summaries in plain English.
+
+## Building a product
+When the owner shares a build brief or asks to build/continue a product, use the
+`build-product` skill (`.claude/skills/build-product/SKILL.md`). It is the standard
+way every product here gets built, so all 15-20 come out the same shape.
