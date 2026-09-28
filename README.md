@@ -11,12 +11,13 @@ Everything lives in one place, organized the same way, so nothing gets lost.
 | [`shared/`](shared/) | Things several products reuse: branding, logos, common code. |
 | [`ideas/`](ideas/) | Product ideas that aren't being built yet. One short file per idea. |
 | [`docs/`](docs/) | How we work: naming rules, the process for starting a new product. |
+| [`scripts/`](scripts/) | Helper commands, like starting a new product. |
 
 ## Starting a new product
 
-1. Copy the [`products/_template`](products/_template) folder.
-2. Rename the copy to the product's name (lowercase, words joined with dashes, e.g. `lead-tracker`).
-3. Fill in its `README.md`: what it does, who it's for, and where it's at.
+1. Run `scripts/new-product.sh lead-tracker "Lead Tracker"` (or copy [`products/_template`](products/_template) by hand).
+2. Fill in its `PRODUCT.md` (the plan) and `README.md` (the summary).
+3. Add a row for it in [`products/README.md`](products/README.md).
 
 Or just ask Claude: *"Start a new product in the saas repo called ___ that does ___."*
 

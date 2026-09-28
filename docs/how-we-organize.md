@@ -34,7 +34,7 @@ Each product README has a **Status** line. Use one of:
 | If it's... | Put it in... |
 |---|---|
 | A new product idea | `ideas/<idea-name>.md` (or open a "New product idea" issue) |
-| A product we're building | `products/<product-name>/` |
+| A product we're building | `products/<product-name>/` (start it with `scripts/new-product.sh`) |
 | A logo, color palette or font | `shared/branding/` |
 | Code used by more than one product | `shared/` |
 | A bug or feature request | The **Issues** tab |
@@ -45,3 +45,11 @@ Each product README has a **Status** line. Use one of:
 - Customer personal data.
 
 These belong in a password manager or the hosting provider's settings, never in files here.
+
+## Keeping many products from breaking each other
+
+- Every product is **self-contained** in its own folder: its own plan (`PRODUCT.md`),
+  code (`app/`), settings list (`.env.example`) and deploy.
+- Products **never borrow code from each other** directly. If two need the same thing,
+  it moves to `shared/` with a README.
+- Each change (pull request) should be about **one product**. The pull request form asks which.

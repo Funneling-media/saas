@@ -1,11 +1,11 @@
-# Product name
+# Podcasting.gg
 
-**Status:** Idea / Building / Live / Paused / Retired
-**Folder:** `products/<product-name>/`
-**Domain:** 
+**Status:** Building
+**Folder:** `products/podcasting-gg/`
+**Domain:** podcasting.gg
 
 ## What it does
-One or two sentences in plain English.
+_Waiting on the product brief. Will be filled in from it._
 
 ## Who it's for
 The customer or user this helps.
@@ -24,4 +24,5 @@ The customer or user this helps.
 | `.env.example` | Names of the settings/keys the app needs (never the real values). |
 
 ## Notes
-Anything worth remembering: decisions made, next steps, open questions.
+- Next step: paste the original brief into `PRODUCT.md` → "Original brief", then plan version 1.
+- Tech stack not chosen yet; decide it from the brief.
