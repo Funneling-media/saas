@@ -1,11 +1,13 @@
 # Products
 
-One folder per product. Each product is self-contained: its own plan, code, settings
-and deploy. Products never import from each other; shared code goes in [`../shared/`](../shared/).
+One folder per product. Each has its own plan, code, website and deploy, and (by
+default) connects to the shared [`platform/`](../platform/): GoHighLevel, one login,
+billing. Products never reach into each other's code; they connect through the
+platform. See [`docs/platform.md`](../docs/platform.md).
 
 To start a new one, run `scripts/new-product.sh <product-name> "Display Name"`
-(or copy [`_template`](_template) by hand), then add a row below.
+(add `--standalone` only for a product that must not connect), then add a row below.
 
-| Product | What it does | Status |
-|---|---|---|
-| [Podcasting.gg](podcasting-gg/) | _To be filled in from the brief_ | Building |
+| Product | What it does | Connection | Status |
+|---|---|---|---|
+| [Podcasting.gg](podcasting-gg/) | _To be filled in from the brief_ | Connected | Building |

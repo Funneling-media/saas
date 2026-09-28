@@ -2,6 +2,7 @@
 
 **Status:** Building
 **Folder:** `products/podcasting-gg/`
+**Connection:** Connected to the Funneling Media platform (GoHighLevel)
 **Domain:** podcasting.gg
 
 ## What it does

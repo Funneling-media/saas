@@ -19,6 +19,11 @@ One sentence a customer would say after using it.
 ## Later (not in version 1)
 - 
 
+## Platform connection
+- Connected or standalone: Connected
+- GoHighLevel tags this product sends (e.g. `<product>:signed-up`, `<product>:paid`):
+- How it helps customers of our other products (cross-sell, bundles):
+
 ## Pricing
 - Plan: $/month, what's included
 

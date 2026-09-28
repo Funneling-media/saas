@@ -1,13 +1,15 @@
 # Funneling Media — SaaS
 
-This is the home base for every software product Funneling Media builds.
-Everything lives in one place, organized the same way, so nothing gets lost.
+This is the home base for every software product Funneling Media builds: a family
+of products (like HubSpot or Zoho) that share one platform and connect to our
+GoHighLevel. See [`docs/platform.md`](docs/platform.md).
 
 ## What's in here
 
 | Folder | What goes in it |
 |---|---|
 | [`products/`](products/) | One folder per product (each app or tool we sell or run). |
+| [`platform/`](platform/) | The shared foundation all connected products use: GoHighLevel, one login, billing, customer data. |
 | [`shared/`](shared/) | Things several products reuse: branding, logos, common code. |
 | [`ideas/`](ideas/) | Product ideas that aren't being built yet. One short file per idea. |
 | [`docs/`](docs/) | How we work: naming rules, the process for starting a new product. |

@@ -2,6 +2,7 @@
 
 **Status:** Idea / Building / Live / Paused / Retired
 **Folder:** `products/<product-name>/`
+**Connection:** Connected to the Funneling Media platform (GoHighLevel)
 **Domain:** 
 
 ## What it does
